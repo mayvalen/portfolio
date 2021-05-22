@@ -54,6 +54,16 @@ body {
     transition: opacity .1s;
 }
 
+.responsive {
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 2em;
+
+}
+
 p {
     font-size: 13vw;
 }
