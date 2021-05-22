@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Migra';
+    src: url('MigraItalic-ExtralightItalic.woff2') format('woff2'),
+        url('MigraItalic-ExtralightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('NeueMontreal-Regular.woff2') format('woff2'),
+        url('NeueMontreal-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('NeueMontreal-Light.woff2') format('woff2'),
+        url('NeueMontreal-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    color: #32B740;
+    font-family: 'Neue Montreal';
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 2vw 0 2vw;
+}
+
+.alien {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-size: 5vw;
+}
+
+.name {
+    position: fixed;
+    width: 100vw;
+    transition: opacity .1s;
+}
+
+p {
+    font-size: 13vw;
+}
+
+#Migra {
+    font-family: 'Migra';
+    font-style: italic;
+ 
+}
+
+.container {
+    padding-top: 10em;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box {
+    font-size: 7vw;
+    padding-bottom: 1rem;
+}
+
+.footer {
+    font-size: 7vw;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 8.5em;
+}
