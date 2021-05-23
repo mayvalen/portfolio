@@ -101,8 +101,8 @@ p {
 
 .footer {
     font-size: 5vw;
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    margin-top: 16em;
+    width: 100%;
+    margin-top: 3em;
+    transform: rotate(-90deg);
+    margin-left: 9em;
 }
