@@ -31,6 +31,15 @@ body {
     font-family: 'Neue Montreal';
 }
 
+.big-body {
+    animation-name: opacity;
+    animation-duration: 1s;
+  }
+  @keyframes opacity{
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -39,19 +48,23 @@ body {
     padding: 2vw 0 2vw;
 }
 
-.alien {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    font-size: 5vw;
+a {
+    color: #32B740;
 }
+
+a:hover {
+    color: #94f7f2;
+}
+
+a:visited {
+    color: #32B740;
+}
+
+
 
 .name {
     position: fixed;
     width: 100vw;
-    transition: opacity .1s;
 }
 
 .responsive {
@@ -78,17 +91,18 @@ p {
     padding-top: 10em;
     margin-left: 1rem;
     margin-right: 1rem;
+    
 }
 
 .box {
-    font-size: 7vw;
+    font-size: 5vw;
     padding-bottom: 1rem;
 }
 
 .footer {
-    font-size: 7vw;
+    font-size: 5vw;
     display: flex;
     align-items: baseline;
     justify-content: center;
-    margin-top: 8.5em;
+    margin-top: 16em;
 }
