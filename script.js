@@ -64,5 +64,6 @@ var names = document.querySelector(".name");
 pointer.addEventListener("click", function(){
 
     names.classList.add("up");
+    pointer.style.display = "none";
 
 })
