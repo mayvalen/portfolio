@@ -57,3 +57,12 @@ boxThirteen.addEventListener("click", function(){
 
 })
 
+//when the down pointer hand is pressed, activate the click class 
+var pointer = document.querySelector(".down");
+var names = document.querySelector(".name");
+
+pointer.addEventListener("click", function(){
+
+    names.classList.add("up");
+
+})
