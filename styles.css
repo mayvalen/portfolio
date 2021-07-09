@@ -29,6 +29,7 @@
 body {
     color: #32B740;
     font-family: 'Neue Montreal';
+    background-color: black;
 }
 
 .big-body {
@@ -48,23 +49,10 @@ body {
     padding: 2vw 0 2vw;
 }
 
-a {
-    color: #32B740;
-}
-
-a:hover {
-    color: #94f7f2;
-}
-
-a:visited {
-    color: #32B740;
-}
-
-
-
 .name {
     position: fixed;
     width: 100vw;
+    
 }
 
 .responsive {
@@ -74,7 +62,6 @@ a:visited {
     justify-content: center;
     margin: auto;
     padding-top: 2em;
-
 }
 
 p {
@@ -99,14 +86,33 @@ p {
     padding-bottom: 1rem;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
+.box:hover {
+    color: #910000;
+}
+
 .footer {
     font-size: 5vw;
     width: 100%;
     transform: rotate(-90deg);
     margin-left: 9em;
-
 }
 
 #blue {
     color: #94f7f2;
+}
+
+.hidden {
+    display: none;
+}
+
+.hidden.active {
+    display: block;
+}
+
+img {
+    width: 50%;
 }
