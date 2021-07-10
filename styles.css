@@ -127,14 +127,29 @@ p {
 .box {
     font-size: 5vw;
     padding-bottom: 1rem;
+
+    animation-name: opacity-three;
+    animation-duration: 2s;
+
+  }
+
+  @keyframes opacity-three{
+    0% {opacity: 0}
+    100% {opacity: 1}
 }
+
+.box4 {
+    display: flex;
+    text-align: center;
+}
+
 
 .underline {
     text-decoration: underline;
 }
 
 .box:hover {
-    color: #910000;
+    color:#94f7f2;
 }
 
 /* .footer {
@@ -157,7 +172,9 @@ p {
 }
 
 img {
-    width: 50%;
+    width: 40%;
+   
+
 }
 
 .down {
