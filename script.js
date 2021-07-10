@@ -58,12 +58,18 @@ boxThirteen.addEventListener("click", function(){
 })
 
 //when the down pointer hand is pressed, activate the click class 
+//make the pointer disappear 
+//
 var pointer = document.querySelector(".down");
 var names = document.querySelector(".name");
+var container = document.querySelector(".container");
 
 pointer.addEventListener("click", function(){
 
     names.classList.add("up");
     pointer.style.display = "none";
+    container.classList.add("appear");
 
 })
+
+

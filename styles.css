@@ -55,7 +55,7 @@ body {
 }
 
 .name.up {
-    transition-duration: 2s;
+    transition-duration: 1.5s;
     transform: translateY(-225px);
 }
 
@@ -100,18 +100,20 @@ p {
 }
 
 .container {
-    margin-top: -30em;
-    padding-top: 3em;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    position: absolute;
-    display: none;
+   display: none;
 
 }
 
 .container.appear {
+    margin-top: -15em;
+    padding-top: 3em;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    position: absolute;
+    display: block;
+
     animation-name: opacity-two;
-    animation-duration: 2s;
+    animation-duration: 3s;
     /* gonna have to add an ease in or make it go fast or sumthn
     gotta work on the timing */
   }
