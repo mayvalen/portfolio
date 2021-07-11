@@ -138,7 +138,7 @@ p {
     100% {opacity: 1}
 }
 
-.box4 {
+.center {
     display: flex;
     text-align: center;
 }
@@ -171,10 +171,12 @@ p {
     display: block;
 }
 
-img {
+.small-image {
     width: 40%;
-   
+}
 
+.large-image {
+    width: 100%;
 }
 
 .down {
