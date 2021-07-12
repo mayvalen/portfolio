@@ -179,6 +179,11 @@ p {
     width: 100%;
 }
 
+.margin {
+    margin-top: -1.7em;
+}
+
+
 .down {
     text-align: center;
     padding-top: 8em;
