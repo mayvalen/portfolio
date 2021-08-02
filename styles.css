@@ -183,14 +183,12 @@ p {
     margin-top: -1.7em;
 }
 
-
 .down {
     text-align: center;
     padding-top: 8em;
 
     animation-name: opacity-one;
-    animation-duration: 5s;
-    
+    animation-duration: 5s; 
 }
 
 @keyframes opacity-one{
