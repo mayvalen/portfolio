@@ -41,6 +41,14 @@ boxNine.addEventListener("click", function(){
 
 })
 
+var boxEleven = document.querySelector(".box11");
+var boxTwelve = document.querySelector(".box12");
+boxEleven.addEventListener("click", function(){
+
+    boxTwelve.classList.toggle("active");
+
+})
+
 
 
 //when the down pointer hand is pressed, activate the click class 
