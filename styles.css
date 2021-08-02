@@ -40,7 +40,7 @@
 body {
     color: #32B740;
     font-family: 'PP Supply Mono';
-    background-color: black;
+    background-color: rgb(17, 17, 17);
     cursor: cell;
 }
 
