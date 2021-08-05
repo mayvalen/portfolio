@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'PP Supply Mono';
-    src: url('PPSupplyMono-Ultralight.woff2') format('woff2'),
-        url('PPSupplyMono-Ultralight.woff') format('woff');
-    font-weight: 200;
+    font-family: 'Tiempos Text';
+    src: url('TiemposText-Regular.woff2') format('woff2'),
+        url('TiemposText-Regular.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
