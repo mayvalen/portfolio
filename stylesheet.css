@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Tiempos Text';
-    src: url('TiemposText-Regular.woff2') format('woff2'),
-        url('TiemposText-Regular.woff') format('woff');
-    font-weight: normal;
+    font-family: 'PP Telegraf';
+    src: url('PPTelegraf-UltraLight.woff2') format('woff2'),
+        url('PPTelegraf-UltraLight.woff') format('woff');
+    font-weight: 200;
     font-style: normal;
     font-display: swap;
 }

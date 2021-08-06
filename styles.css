@@ -43,11 +43,21 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'PP Telegraf';
+    src: url('PPTelegraf-UltraLight.woff2') format('woff2'),
+        url('PPTelegraf-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 
 
 body {
-    color: #7c7c7c;
-    font-family: 'helvetica';
+    color: #acacac;
+    font-family: 'PP Telegraf';
     background-color: rgb(0, 0, 0);
     cursor: cell;
 }
@@ -83,7 +93,7 @@ body {
 
 .information {
     text-align: center;
-    color: #7c7c7c;
+    color: #acacac;
     padding-top: 1em;
 }
 
