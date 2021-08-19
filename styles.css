@@ -1,49 +1,4 @@
 @font-face {
-    font-family: 'Migra';
-    src: url('MigraItalic-ExtralightItalic.woff2') format('woff2'),
-        url('MigraItalic-ExtralightItalic.woff') format('woff');
-    font-weight: 200;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neue Montreal';
-    src: url('NeueMontreal-Regular.woff2') format('woff2'),
-        url('NeueMontreal-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neue Montreal';
-    src: url('NeueMontreal-Light.woff2') format('woff2'),
-        url('NeueMontreal-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'PP Supply Mono';
-    src: url('PPSupplyMono-Ultralight.woff2') format('woff2'),
-        url('PPSupplyMono-Ultralight.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Tiempos Text';
-    src: url('TiemposText-Regular.woff2') format('woff2'),
-        url('TiemposText-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
     font-family: 'PP Telegraf';
     src: url('PPTelegraf-UltraLight.woff2') format('woff2'),
         url('PPTelegraf-UltraLight.woff') format('woff');
