@@ -25,13 +25,13 @@ boxFive.addEventListener("click", function(){
 
 })
 
-var boxSeven = document.querySelector(".box7");
+/* var boxSeven = document.querySelector(".box7");
 var boxEight = document.querySelector(".box8");
 boxSeven.addEventListener("click", function(){
 
     boxEight.classList.toggle("active");
 
-})
+}) */
 
 var boxNine = document.querySelector(".box9");
 var boxTen = document.querySelector(".box10");

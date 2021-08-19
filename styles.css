@@ -98,12 +98,12 @@ body {
 }
 
 .contact-info {
-    margin-bottom: -5px;
-    margin-top: -5px;
+    margin-bottom: -30px;
+    
 }
 
 .responsive {
-    width: 40%;
+    width: 35%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -128,10 +128,6 @@ a:visited {
     color: #acacac;
 }
 
-#Migra {
-    font-family: 'Migra';
-    font-style: italic;
-}
 
 .container {
    display: none;
@@ -159,7 +155,7 @@ a:visited {
 
 
 .box {
-    font-size: 5vw;
+    font-size: 9vw;
     padding-bottom: 1rem;
 
     animation-name: opacity-three;
